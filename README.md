@@ -1,27 +1,80 @@
-# LoginPage
+# Login Page - Angular + Spring Boot + Spring Security
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
+Este projeto foi desenvolvido para implementar uma página de login simples utilizando **Angular** no frontend e **Spring Boot** com **Spring Security** no backend. O objetivo foi colocar em prática os conhecimentos adquiridos em Angular, TypeScript, Java e Spring Boot, criando um sistema de autenticação básico.
 
-## Development server
+## Tecnologias Utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Frontend
+- **Angular 17**
+- **TypeScript**
+- **Reactive Forms** (para validação de formulários)
+- **ngx-toastr** (para exibir mensagens de sucesso e erro)
+- **RxJS** (para programação reativa)
+- **Angular Router** (para navegação entre páginas)
 
-## Code scaffolding
+### Backend
+- **Spring Boot 3**
+- **Spring Security** (para autenticação e autorização)
+- **JWT** (JSON Web Tokens para autenticação stateless)
+- **Spring Data JPA** (para persistência de dados)
+- **H2 Database** (banco de dados em memória para desenvolvimento)
+- **Lombok** (para reduzir boilerplate code)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Funcionalidades
 
-## Build
+### Sistema de Autenticação
+- Cadastro de novos usuários
+- Login com email e senha
+- Validação de campos no frontend e backend
+- Armazenamento seguro do token JWT
+- Proteção de rotas no frontend e backend
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Páginas
+- **Página de Login** com validação em tempo real
+- **Página de Cadastro** com confirmação de senha
+- **Página Home** (após autenticação bem-sucedida)
 
-## Running unit tests
+### Extras
+- Interceptors para adicionar token às requisições
+- Guards para proteger rotas no Angular
+- Mensagens de feedback para o usuário
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+🔒 **Configuração de Segurança**
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O backend está configurado com:
+- **Spring Security** com autenticação JWT
+- **CSRF protection** desabilitado (para simplificar)
+- **CORS** configurado para desenvolvimento
+- **PasswordEncoder** com BCrypt
+- **Rotas protegidas** por roles
 
-## Further help
+📚 **Referências**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Tutoriais**
+- [Spring Security + JWT Tutorial](https://example.com/tutorial)
+- [Angular JWT Authentication](https://example.com/angular-jwt)
+- [Spring Boot + Angular CRUD](https://example.com/spring-angular-crud)
+
+**Documentações Oficiais**
+- [Angular Documentation](https://angular.io/docs)
+- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
+- [Spring Security Reference](https://docs.spring.io/spring-security/site/docs/current/reference/html5/)
+
+**Vídeos**
+- [Full Stack Angular + Spring Boot](https://www.youtube.com/watch?v=example)
+- [JWT Authentication Explained](https://www.youtube.com/watch?v=example)
+
+🤝 **Como Contribuir**
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/awesome-feature`)
+3. Commit suas mudanças (`git commit -m 'Add some awesome feature'`)
+4. Push para a branch (`git push origin feature/awesome-feature`)
+5. Abra um Pull Request
+
+📝 **Licença**
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+
+Desenvolvido com ❤️ por [MoostDev - João Gionda]  
+📧 Contato: [moostdev@gmail.com]  
+🔗 GitHub: [https://github.com/Moost999]
