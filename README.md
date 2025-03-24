@@ -52,9 +52,9 @@ O backend está configurado com:
 📚 **Referências**
 
 **Tutoriais**
-- [Spring Security + JWT Tutorial](https://example.com/tutorial)
-- [Angular JWT Authentication](https://example.com/angular-jwt)
-- [Spring Boot + Angular CRUD](https://example.com/spring-angular-crud)
+- [Spring Security Tutorial](https://www.toptal.com/spring/spring-security-tutorial)
+- [Angular JWT Authentication](https://blog.angular-university.io/angular-jwt-authentication/)
+- [Spring Boot + Angular CRUD](https://auth0.com/blog/spring-boot-angular-crud/)
 
 **Documentações Oficiais**
 - [Angular Documentation](https://angular.io/docs)
@@ -62,8 +62,8 @@ O backend está configurado com:
 - [Spring Security Reference](https://docs.spring.io/spring-security/site/docs/current/reference/html5/)
 
 **Vídeos**
-- [Full Stack Angular + Spring Boot](https://www.youtube.com/watch?v=example)
-- [JWT Authentication Explained](https://www.youtube.com/watch?v=example)
+- [PROJETO FULLSTACK APP DE LOGIN ANGULAR 17 + JAVA SPRING | FRONTEND](https://youtu.be/6qbuuPM_de4)
+- [PROJETO FULLSTACK COM LOGIN USANDO SPRING SECURITY + JWT | BACKEND](https://youtu.be/tJCyNV1G0P4)
 
 🤝 **Como Contribuir**
 1. Faça um fork do projeto
